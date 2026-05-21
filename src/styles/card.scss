@@ -74,6 +74,9 @@
     margin-top: 16px;
     border-radius: 5px;
     border: 1px solid $blue-color;
+    transition:
+      background-color 0.3s,
+      color 0.3s;
 
     &:hover {
       background: #fff;

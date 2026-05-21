@@ -32,6 +32,7 @@
     text-decoration: none;
     line-height: 60px;
     display: inline-block;
+    transition: color 0.3s;
 
     &:hover {
       color: $blue-color;
