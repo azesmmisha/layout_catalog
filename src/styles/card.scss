@@ -8,11 +8,19 @@
   border: 1px solid #f3f3f3;
   transition: transform 0.3s;
 
+  &__name {
+    margin: 40px 0 4px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    transition: color 1s;
+  }
+
   &:hover {
     transform: scale(1.2);
     transform-origin: center;
 
-    .card__name {
+    .card__title {
       color: #34568b;
     }
   }
@@ -22,14 +30,6 @@
     width: 160px;
     height: 134px;
     margin: 0 auto;
-  }
-
-  &__name {
-    margin: 40px 0 4px;
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
-    transition: color 1s;
   }
 
   &__code {
